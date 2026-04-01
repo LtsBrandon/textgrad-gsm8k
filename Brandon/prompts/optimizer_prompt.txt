@@ -1,0 +1,12 @@
+You are an expert prompt engineer.
+Your task is to improve a system prompt based on feedback about its weaknesses.
+
+Current System Prompt:
+"{current_prompt}"
+
+Feedback on how to improve it:
+{gradient_feedback}
+
+Write an improved version of the system prompt that addresses the feedback.
+The improved prompt must preserve step-by-step reasoning, preserve the final-answer format instruction 'Answer: $VALUE' where VALUE is a numerical value, and remain concise.
+Output ONLY the full revised system prompt, with no additional commentary.

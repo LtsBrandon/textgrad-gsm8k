@@ -1,0 +1,14 @@
+Reproducibility is the bedrock of science. When someone presents results, then others should be able to repeat the experiment and observe the same (or similar) results. If not, then the claims made are not scientific. What good is a “truth" if it doesn’t work for anyone else?
+
+You and your partner must choose a published paper, either from an archival journal or conference proceedings, or from an online archive of technical reports (like arXiv, bioarXiv, etc.) and try to reproduce the results shown in the paper.
+
+You do not need to replicate all their results. But you will be expected to offer your own evidence that their method works as described.
+
+Once you have replicated their findings, you have an opportunity to tweak their method to experiment with your own variant. The very end of a paper often includes a brief discussion of “future work”; that can be a good source of ideas for how to extend their work.
+
+
+Prof comments on the proposal:
+Highlighted GSM8k-style math dataset: "Am I correct that you will focus on just one type of input? That is sufficient."
+Highlighted we will fallback to smaller models: "Good contingency plan"
+
+Based on prof comments, he might suggesting that removing the Test-Time Optimization, keeping only Prompt optimization is sufficient for this project.

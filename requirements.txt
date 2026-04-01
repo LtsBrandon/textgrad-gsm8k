@@ -1,0 +1,11 @@
+# TextGrad GSM8k Reproduction — Dependencies
+#
+# The openai library is used as an HTTP client for LM Studio's local API
+# at http://127.0.0.1:1234/v1. LM Studio mirrors the OpenAI REST API format,
+# so the standard SDK works without modification. Same codebase would work
+# against the real OpenAI cloud by just changing the config URL.
+
+openai>=1.0.0        # OpenAI-compatible client (talks to LM Studio)
+pyyaml>=6.0          # Config file parsing
+datasets>=2.0.0      # HuggingFace datasets (for GSM8k download)
+matplotlib>=3.7.0    # Plotting for analysis

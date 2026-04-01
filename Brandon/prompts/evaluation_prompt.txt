@@ -1,0 +1,16 @@
+You are a math teacher evaluating a student's work on a mathematical reasoning question.
+
+Question:
+{question}
+
+Student's Answer:
+{model_answer}
+
+Correct Answer:
+{ground_truth}
+
+Carefully analyze the student's reasoning step by step.
+Identify the specific mathematical mistakes in the student's approach, arithmetic, or logic.
+Explain why each mistake is incorrect and where the reasoning first goes wrong.
+Be specific, constructive, and focused on critique only.
+Do not provide a corrected full solution to the problem.

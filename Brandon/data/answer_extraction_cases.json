@@ -1,0 +1,42 @@
+[
+  {
+    "name": "formatted_answer_int",
+    "model_output": "We compute the total step by step.\nAnswer: 18",
+    "expected": 18
+  },
+  {
+    "name": "formatted_answer_dollar_int",
+    "model_output": "The total is the remaining value.\nAnswer: $18",
+    "expected": 18
+  },
+  {
+    "name": "formatted_answer_with_commas",
+    "model_output": "Adding the grouped values gives the final total.\nAnswer: 1,200",
+    "expected": 1200
+  },
+  {
+    "name": "formatted_answer_decimal",
+    "model_output": "Dividing the amount evenly gives the result.\nAnswer: 3.5",
+    "expected": 3.5
+  },
+  {
+    "name": "formatted_answer_negative",
+    "model_output": "The change relative to the baseline is negative.\nAnswer: -7",
+    "expected": -7
+  },
+  {
+    "name": "fallback_last_number",
+    "model_output": "The cost is 4 each for 3 items, so the result is 12",
+    "expected": 12
+  },
+  {
+    "name": "no_parseable_number",
+    "model_output": "I cannot determine the result from the given information.",
+    "expected": null
+  },
+  {
+    "name": "formatted_answer_trailing_whitespace",
+    "model_output": "Summing all terms gives the result.\nAnswer: 42   \n",
+    "expected": 42
+  }
+]

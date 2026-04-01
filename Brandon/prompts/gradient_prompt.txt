@@ -1,0 +1,14 @@
+You are an expert prompt engineer.
+A language model is using the following system prompt to solve mathematical reasoning problems, but it is making errors.
+
+Current System Prompt:
+"{system_prompt}"
+
+Below are critiques of the model's incorrect answers on recent problems:
+
+{aggregated_losses}
+
+Based on these errors, provide specific feedback on how the system prompt should be changed.
+Focus on what instructions should be added, clarified, tightened, or removed so the model avoids these types of mistakes in future problems.
+Your feedback must be about improving the prompt itself, not about solving any individual question.
+Do not solve the problems or provide corrected answers.

@@ -1,0 +1,53 @@
+# ============================================================
+# TextGrad GSM8k Reproduction — .gitignore
+# ============================================================
+
+# ----- Large / reference files (not project code) -----
+*.exe
+*.pdf
+*.docx
+
+# ----- Runtime outputs (created by pipeline) -----
+logs/
+results/
+
+# ----- Python -----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# ----- Jupyter Notebook checkpoints -----
+.ipynb_checkpoints/
+
+# ----- OS -----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----- IDE -----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----- HuggingFace cache -----
+.cache/
+
+# ----- Claude Code internal -----
+.claude/
+
+# ----- Files not part of the TextGrad project -----
+# Old course notebooks unrelated to the project
+lc239.ipynb
+coding_lc41.ipynb
+coding_lc42.ipynb
+coding_test.ipynb
+sample.ipynb
+Leetcode Claim/
