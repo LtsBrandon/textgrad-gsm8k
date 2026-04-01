@@ -1,8 +1,5 @@
 # TextGrad GSM8k Reproduction
 
-**CS 679 Neural Networks — University of Waterloo, W2026**
-**Team**: Brandon Peng & Roger Zhu
-
 Reproducing the **Prompt Optimization** claim from:
 > Yuksekgonul et al., "Optimizing generative AI by backpropagating language model feedback," *Nature* 639, 609-616 (2025)
 
